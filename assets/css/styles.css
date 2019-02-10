@@ -1,0 +1,147 @@
+@import "bulma.min.css";
+@import url('https://fonts.googleapis.com/css?family=Anton|Bitter|Dancing+Script|Fahkwang|Lobster|Montserrat|Pacifico|Slabo+27px|Staatliches');
+@import "./fontawesome.min.css";
+
+/* font-family: 'Fahkwang', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Bitter', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive; */
+
+body{
+    font-family: 'Bitter', serif;
+}
+
+.navbar{
+    background-color:rgba(255, 254, 249, 0.7) !important;
+    padding: 20px;
+    
+    
+}
+
+.navbar a{
+    color: #00a989;
+}
+
+.navbar a:hover{
+    color:#000;
+}
+
+.navbar-brand a{
+    color:#00a989 !important;
+    font-family: 'Lobster', cursive;
+    font-size:2.75rem;
+    margin-top: -10px;
+    text-shadow: 2px 4px 3px rgb(0, 0, 0, 0.1);
+}
+
+.logo{
+ margin: 0 auto;
+}
+
+.hero{
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.navbar{
+    /* margin-top: -281px; */
+}
+#header{
+    background-color:#444;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 15em 0 8em 0;
+    background-image: url("../images/frontsmall.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+    cursor: default;
+}
+
+.inner{
+    text-align: center;
+}
+
+.inner h1{
+    font-size:3rem;
+    color: #fff;
+    margin-bottom: 7%;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+.button{
+    background-color: #00a989;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.about{
+    text-align: center;
+   
+}
+
+.about h2{
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+
+}
+
+.about h3{
+    font-size:2rem;
+    margin-bottom:5%;
+}
+
+.about p{
+    font-size:1rem;
+    line-height: 2.5rem;
+    margin-bottom: 5%;
+}
+
+.input{
+    width:75%;
+}
+
+.icon{
+    font-family: sans-serif;
+    color: #00a989;
+    font-size: 25px;
+}
+
+.links a{
+    color: #00a989;
+
+}
+
+.links a:hover{
+    color: #000;
+}
+
+.section{
+    margin-bottom: 5%;
+}
