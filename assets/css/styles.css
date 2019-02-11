@@ -108,13 +108,18 @@ body{
 
 .about h2{
     font-size: 2.5rem;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 
 }
 
 .about h3{
     font-size:2rem;
-    margin-bottom:5%;
+    margin-bottom: 5%;
+}
+
+.about h5{
+    font-size:1.25rem;
+    margin-bottom:3%;
 }
 
 .about p{
@@ -154,4 +159,94 @@ body{
 .trial{
     padding-left: 10%;
     padding-right:10%;
+}
+
+.footer{
+    background-image:url("");
+    background-size:cover;
+    background-position: center;
+    background-color: #e6e6e6;
+}
+
+.desc{
+    margin-top:5%;
+    text-align:center;
+}
+
+.desc h3{
+    font-size:2rem;
+}
+
+.desc h6{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 3%;
+    
+}
+
+.desc p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.footer-info{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.menu-pg{
+    background-image: url("../images/menu-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.divider{
+    position: relative;
+    width: 225px;
+    margin: auto;
+    height: 15px;
+    opacity: 1;
+    font-size: 14px;
+    line-height: 1.714;
+}
+
+.divider .line-before{
+    left: 0;
+    position: absolute;
+    height: 1px;
+    background-color:#fff;
+    width: 100px;
+    font-weight: 500;
+}
+
+.divider .dot{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius:50%;
+    border: 1px solid #fff;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 500;
+}
+
+.divider .line-after{
+    right: 0;
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+    width: 100px;
+    font-weight: 500;
+}
+
+.menu-page h1{
+    font-size:3rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
 }
