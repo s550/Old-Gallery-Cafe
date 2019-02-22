@@ -250,3 +250,102 @@ body{
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
 }
+
+.dir-pg{
+    background-image: url("../images/directions-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.directions-page h1{
+    font-size:3rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+.dir{
+    text-align: center;
+}
+
+.dir h3{
+    font-size:2rem;
+    margin: 10px 0 30px 0;
+}
+
+.dir p{
+    font-size: 1.25rem;
+    margin-bottom:40px;
+}
+
+.dir ul li{
+    font-size: .75rem;
+    margin: 0px 0px 10px 0px;
+}
+
+.ab-pg{
+    background-image: url("../images/about-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.about-page h1{
+    font-size:3rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+.cater-pg{
+    background-image: url("../images/catering-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.catering-page h1{
+    font-size:3rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+.res-pg{
+    background-image: url("../images/reservations-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.reservations-page h1{
+    font-size:3rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+.ord-pg{
+    background-image: url("../images/orders-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.orders-page h1{
+    font-size:3rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight:600;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}

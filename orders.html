@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header id="" class="hero is-large">
+    <header id="" class="hero is-medium ord-pg">
         <div class="hero-head">
                 <nav class="navbar is-fixed-top is-transparent">
                         <div class="navbar-brand">
                             <a href="#">Old Gallery Cafe</a>
-                            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
@@ -27,34 +27,77 @@
                         </div>     
                          <div id="navbarBasicExample" class="navbar-menu">
                              <div class="navbar-end">
-                                  <a href="" class="navbar-item">Home</a>
+                                  <a href="./index.html" class="navbar-item">Home</a>
                                   <a href="./menu.html" class="navbar-item">Menu</a>
-                                  <a href="" class="navbar-item">Order</a>
-                                  <a href="" class="navbar-item">Reservations</a>
-                                  <a href="" class="navbar-item">Catering</a>
-                                  <a href="" class="navbar-item">About</a>
-                                  <a href="" class="navbar-item">Directions</a>
+                                  <a href="./orders.html" class="navbar-item">Order</a>
+                                  <a href="./reservations.html" class="navbar-item">Reservations</a>
+                                  <a href="./catering.html" class="navbar-item">Catering</a>
+                                  <a href="./about.html" class="navbar-item">About</a>
+                                  <a href="./directions.html" class="navbar-item">Directions</a>
                              </div>
                          </div>    
                       </nav>
         </div>
         <div class="hero-body">
             
-              <div class="inner">
+              <div class="orders-page">
                 
-                  <h1>Traditional Mexican Comfort Cusine</h1>
-                  <a href="#" class="button is-medium">Make a reservation</a>
+                  <h1>Place an Order</h1>
+                  <div class="divider">
+                      <span class="line-before"></span>
+                      <span class="dot"></span>
+                      <span class="line-after"></span>
+                  </div>
               </div> 
               </div>
               </header>
 
               <main class="section">
-             
+                <div class="colums">
+                    <div class="colum">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="colum">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="colum">
+                       <ul>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                       </ul>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                </div>
+                <div class="columns">
+                    <div class="column"></div>
+                    <div class="column"></div>
+                    <div class="column"></div>
+                </div>
                   </main>
                   <footer class="footer">
                       <div class="columns">
                         <div class="column" >
-                            <p>Sign up for our emails</p>
+                            <h5>Sign up for our emails</h5>
                             <div class="field">
                                 <div class="control">
                                 <input type="text" class="input is-primary">
@@ -67,6 +110,7 @@
                             
                         </div>
                         <div class="column">
+                            <h5>Gallery Cafe Group</h5>
                             <ul class="links">
                                 <li><a href="">Catering</a></li>
                                 <li><a href="">About</a></li>
