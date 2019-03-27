@@ -1,0 +1,23 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "fictional restaurant mock",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s550/Old-Gallery-Cafe.git"
+  },
+  "author": "Jimmie J. Tarro-Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s550/Old-Gallery-Cafe/issues"
+  },
+  "homepage": "https://github.com/s550/Old-Gallery-Cafe#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
