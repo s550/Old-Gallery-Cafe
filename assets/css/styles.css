@@ -107,24 +107,24 @@ body{
 }
 
 .about h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     /* margin-bottom: 5%; */
 
 }
 
 .about h3{
-    font-size:2rem;
+    font-size:2.75rem;
     margin-bottom: 5%;
 }
 
 .about h5{
-    font-size:1.25rem;
+    font-size:2rem;
     margin-bottom:3%;
 }
 
 .about p{
-    font-size:1rem;
-    line-height: 1.5rem;
+    font-size:1.5rem;
+    line-height: 2.5rem;
     margin-bottom: 5%;
 }
 
@@ -152,8 +152,9 @@ body{
 }
 
 .image img{
-    height:400px;
+    height:40rem;
     width: 100%;
+    border-radius: 4px;
 }
 
 .trial{
@@ -174,19 +175,19 @@ body{
 }
 
 .desc h3{
-    font-size:2rem;
+    font-size:3rem;
 }
 
 .desc h6{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 3%;
     
 }
 
 .desc p{
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
     margin-bottom: 5%;
 }
 
